@@ -21,7 +21,10 @@ class Utils {
         }
     }
 
-    fun reverseString(str: String): String {
+    fun reverseString(str: String?): String {
+        if (str==null){
+            throw IllegalArgumentException("Input String is required")
+        }
         return str.reversed()
     }
 
