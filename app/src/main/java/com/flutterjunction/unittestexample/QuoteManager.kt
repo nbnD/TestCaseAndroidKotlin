@@ -4,7 +4,7 @@ import android.content.Context
 
 import com.google.gson.Gson
 
-class QuoteManager() {
+class QuoteManager {
 
     var quoteList = emptyArray<Quote>()
      var currentQuoteIndex = 0
